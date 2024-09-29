@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 w-[60%] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -19,31 +19,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am Abdellatif Anifi, a Full-Stack Developer with expertise in building scalable, high-performance web applications. My experience spans both front-end and back-end technologies, allowing me to deliver efficient and user-focused solutions. I specialize in POS and eCommerce systems, with a strong background in JavaScript frameworks like React.js, Node.js, and Electron.js. My passion for solving complex problems and continuously improving my skills drives me to create innovative, user-friendly solutions that improve business processes.
+      </p>
+      <p>
+        <span className="italic">When I'm not coding</span>, I enjoy reading books on
+        <span className="font-medium">self-improvement</span>, exploring the depths of{" "}
+        <span className="font-medium">Linux systems</span>, and playing video games.
+        I love constantly pushing myself to learn and grow, both in my personal and professional life.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
     </motion.section>
   );
 }
