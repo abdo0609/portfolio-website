@@ -19,11 +19,11 @@ export default function Intro() {
   const handleCopyEmail = () => {
     navigator.clipboard.writeText("abdellatifanifi1@gmail.com");
     Swal.fire({
-      position : 'top-end',
-      icon : 'success',
-      title : 'copied',
-      timer : 600,
-      showConfirmButton : false
+      position: 'top-end',
+      icon: 'success',
+      title: 'copied',
+      timer: 600,
+      showConfirmButton: false
     })
   };
 
@@ -75,11 +75,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm <span>Abdellatif Anifi</span> .</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">JavaScript</span>, with expertise in frameworks like <span className="text-[#640303]">Vue.js</span>, <span className="text-[#640303]">ReactJS</span>, and <span className="text-[#640303]">Next.js</span>.
+        <span className="font-bold">Hello, I'm <span>Abdellatif Anifi</span>.</span> I'm a{" "}
+        <span className="font-bold">versatile full-stack developer</span> with{" "}
+        <span className="font-bold">two years</span> of experience, dedicated to delivering{" "}
+        <span className="italic">innovative solutions for websites and applications</span> that meet diverse client needs.
+
 
 
       </motion.h1>
