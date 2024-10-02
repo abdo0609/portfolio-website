@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "May 2023 - Oct 2023",
   },
   {
-    title: "Kitchen Display System (KDS) Developer",
+    title: "Front-End Developer",
     description: [
       "Developed an Android app for real-time order display on TV screens, with order management through remote control or touch interface.",
       "Created a system to display orders dynamically with specific times for each column, allowing better kitchen management and identification of overdue orders.",
@@ -52,7 +52,7 @@ export const experiencesData = [
     date: "Oct 2023 - Jan 2024",
   },
   {
-    title: "QR Code Order Application Developer",
+    title: "Front-End Developer",
     description: [
       "Built a QR code-based order application where users can scan the code to access the menu page, browse, and select orders.",
       "Integrated secure PIN verification before sending the order to prevent spam.",
@@ -62,7 +62,7 @@ export const experiencesData = [
     date: "Feb 2024 - Apr 2024",
   },
   {
-    title: "Local Server Developer",
+    title: "Back-End Developer",
     description: [
       "Developed a local server using Node.js to act as an intermediary between the POS system and a remote server.",
       "Managed order processing and local data storage using encrypted files for offline operation during network outages.",
